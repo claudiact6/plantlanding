@@ -6,33 +6,51 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <title>Plantas</title>
 </head>
 <body>
-  <div class="container">
-    <div class="row" id="textrow">
-      <div class="col">
-        <h1>Decora tu espacio</h1>
-      </div>
+  <div class="container h-100">
+    <div class="row mt-5" id="textrow">
+        <div class="col-2"></div>
+        <div class="col">
+         <h1>Decora tu espacio</h1>
+        </div>
    </div>
-  </div>
-  <div class="container d-flex h-100" id="maincontainer">
-    <div class="row flex-fill flex-column">
-      <div class="col-4"></div>
-      <div class="col-4">
-        <form>
-          <div class="form-group">
-            <label for="email">Tu mail</label>
-            <input type="email" id="email" class="form-control" placeholder="hola@ejemplo.com">
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-      </div>
-      <div class="col-4"></div>
+  <div class="row h-100 mt-5">
+    <div class="col-2"></div>
+    <div class="col-4">
+      <!--Begin Mailchimp Signup Form-->
+      <div id="mc_embed_signup">
+          <form action="https://github.us19.list-manage.com/subscribe/post?u=0137fa577b820ec24355f120a&amp;id=45e277601b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+              <div class="mc-field-group input-group">
+                  Tus intereses
+                  <ul><li><input type="checkbox" value="1" name="group[1711][1]" id="mce-group[1711]-1711-0"><label for="mce-group[1711]-1711-0">Macetas de alto diseño</label></li>
+              <li><input type="checkbox" value="2" name="group[1711][2]" id="mce-group[1711]-1711-1"><label for="mce-group[1711]-1711-1">Plantas de interior</label></li>
+              <li><input type="checkbox" value="4" name="group[1711][4]" id="mce-group[1711]-1711-2"><label for="mce-group[1711]-1711-2">Plantas de exterior</label></li>
+              <li><input type="checkbox" value="8" name="group[1711][8]" id="mce-group[1711]-1711-3"><label for="mce-group[1711]-1711-3">Cuidados de plantas</label></li>
+              </ul>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0137fa577b820ec24355f120a_45e277601b" tabindex="-1" value=""></div>
+              <div class="clear"><input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+            </div>
+          </form>
+        </div>
+      <!--End of MC signup-->
     </div>
+    <div class="col-6"></div>
   </div>
   <a href="https://www.freepik.com/free-photos-vectors/mockup">Mockup photo created by rawpixel.com - www.freepik.com</a>
 </body>
